@@ -1,0 +1,26 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family:cursive;
+    background-color: cadetblue;
+}
+.titlebar{
+    text-align: center;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    flex-basis:30%;
+    flex-grow:1;
+}
+.container div
+{ 
+    width:200px;
+    margin:10px;
+    
+
+}
